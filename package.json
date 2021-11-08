@@ -14,9 +14,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "heroku-postbuild": "npm run production"
+    "heroku-postbuild": "ng build --aot --prod "
   },
-  "postinstall": "ng build — aot -prod",
   "private": true,
   "dependencies": {
     "@angular/animations": "~13.0.0",
